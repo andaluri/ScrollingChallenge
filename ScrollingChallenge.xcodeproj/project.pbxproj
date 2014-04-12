@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		575AEA1E18F8742F007B12C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 575AEA1D18F8742F007B12C7 /* Foundation.framework */; };
+		575AEA2018F8742F007B12C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 575AEA1F18F8742F007B12C7 /* CoreGraphics.framework */; };
+		575AEA2218F8742F007B12C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 575AEA2118F8742F007B12C7 /* UIKit.framework */; };
+		575AEA2418F8742F007B12C7 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 575AEA2318F8742F007B12C7 /* SpriteKit.framework */; };
+		575AEA2A18F8742F007B12C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 575AEA2818F8742F007B12C7 /* InfoPlist.strings */; };
+		575AEA2C18F8742F007B12C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 575AEA2B18F8742F007B12C7 /* main.m */; };
+		575AEA3018F8742F007B12C7 /* SCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 575AEA2F18F8742F007B12C7 /* SCAppDelegate.m */; };
+		575AEA3318F8742F007B12C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 575AEA3118F8742F007B12C7 /* Main.storyboard */; };
+		575AEA3618F8742F007B12C7 /* SCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 575AEA3518F8742F007B12C7 /* SCViewController.m */; };
+		575AEA3918F8742F007B12C7 /* SCMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 575AEA3818F8742F007B12C7 /* SCMyScene.m */; };
+		575AEA3B18F8742F007B12C7 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 575AEA3A18F8742F007B12C7 /* Spaceship.png */; };
+		575AEA3D18F8742F007B12C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 575AEA3C18F8742F007B12C7 /* Images.xcassets */; };
+		575AEA4418F8742F007B12C7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 575AEA4318F8742F007B12C7 /* XCTest.framework */; };
+		575AEA4518F8742F007B12C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 575AEA1D18F8742F007B12C7 /* Foundation.framework */; };
+		575AEA4618F8742F007B12C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 575AEA2118F8742F007B12C7 /* UIKit.framework */; };
+		575AEA4E18F8742F007B12C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 575AEA4C18F8742F007B12C7 /* InfoPlist.strings */; };
+		575AEA5018F8742F007B12C7 /* ScrollingChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 575AEA4F18F8742F007B12C7 /* ScrollingChallengeTests.m */; };
+		575AEA5A18F8752F007B12C7 /* desert_BG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 575AEA5918F8752F007B12C7 /* desert_BG@2x.png */; };
+		575AEA6618F8A291007B12C7 /* SCTileNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 575AEA6518F8A291007B12C7 /* SCTileNode.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		575AEA4718F8742F007B12C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 575AEA1218F8742F007B12C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 575AEA1918F8742F007B12C7;
+			remoteInfo = ScrollingChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		575AEA1A18F8742F007B12C7 /* ScrollingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		575AEA1D18F8742F007B12C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		575AEA1F18F8742F007B12C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		575AEA2118F8742F007B12C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		575AEA2318F8742F007B12C7 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		575AEA2718F8742F007B12C7 /* ScrollingChallenge-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrollingChallenge-Info.plist"; sourceTree = "<group>"; };
+		575AEA2918F8742F007B12C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		575AEA2B18F8742F007B12C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		575AEA2D18F8742F007B12C7 /* ScrollingChallenge-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScrollingChallenge-Prefix.pch"; sourceTree = "<group>"; };
+		575AEA2E18F8742F007B12C7 /* SCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCAppDelegate.h; sourceTree = "<group>"; };
+		575AEA2F18F8742F007B12C7 /* SCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCAppDelegate.m; sourceTree = "<group>"; };
+		575AEA3218F8742F007B12C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		575AEA3418F8742F007B12C7 /* SCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCViewController.h; sourceTree = "<group>"; };
+		575AEA3518F8742F007B12C7 /* SCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCViewController.m; sourceTree = "<group>"; };
+		575AEA3718F8742F007B12C7 /* SCMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCMyScene.h; sourceTree = "<group>"; };
+		575AEA3818F8742F007B12C7 /* SCMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCMyScene.m; sourceTree = "<group>"; };
+		575AEA3A18F8742F007B12C7 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		575AEA3C18F8742F007B12C7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		575AEA4218F8742F007B12C7 /* ScrollingChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollingChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		575AEA4318F8742F007B12C7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		575AEA4B18F8742F007B12C7 /* ScrollingChallengeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrollingChallengeTests-Info.plist"; sourceTree = "<group>"; };
+		575AEA4D18F8742F007B12C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		575AEA4F18F8742F007B12C7 /* ScrollingChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollingChallengeTests.m; sourceTree = "<group>"; };
+		575AEA5918F8752F007B12C7 /* desert_BG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "desert_BG@2x.png"; sourceTree = "<group>"; };
+		575AEA6418F8A291007B12C7 /* SCTileNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCTileNode.h; sourceTree = "<group>"; };
+		575AEA6518F8A291007B12C7 /* SCTileNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCTileNode.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		575AEA1718F8742F007B12C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				575AEA2018F8742F007B12C7 /* CoreGraphics.framework in Frameworks */,
+				575AEA2218F8742F007B12C7 /* UIKit.framework in Frameworks */,
+				575AEA2418F8742F007B12C7 /* SpriteKit.framework in Frameworks */,
+				575AEA1E18F8742F007B12C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		575AEA3F18F8742F007B12C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				575AEA4418F8742F007B12C7 /* XCTest.framework in Frameworks */,
+				575AEA4618F8742F007B12C7 /* UIKit.framework in Frameworks */,
+				575AEA4518F8742F007B12C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		575AEA1118F8742F007B12C7 = {
+			isa = PBXGroup;
+			children = (
+				575AEA2518F8742F007B12C7 /* ScrollingChallenge */,
+				575AEA4918F8742F007B12C7 /* ScrollingChallengeTests */,
+				575AEA1C18F8742F007B12C7 /* Frameworks */,
+				575AEA1B18F8742F007B12C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		575AEA1B18F8742F007B12C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				575AEA1A18F8742F007B12C7 /* ScrollingChallenge.app */,
+				575AEA4218F8742F007B12C7 /* ScrollingChallengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		575AEA1C18F8742F007B12C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				575AEA1D18F8742F007B12C7 /* Foundation.framework */,
+				575AEA1F18F8742F007B12C7 /* CoreGraphics.framework */,
+				575AEA2118F8742F007B12C7 /* UIKit.framework */,
+				575AEA2318F8742F007B12C7 /* SpriteKit.framework */,
+				575AEA4318F8742F007B12C7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		575AEA2518F8742F007B12C7 /* ScrollingChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				575AEA5918F8752F007B12C7 /* desert_BG@2x.png */,
+				575AEA2E18F8742F007B12C7 /* SCAppDelegate.h */,
+				575AEA2F18F8742F007B12C7 /* SCAppDelegate.m */,
+				575AEA3118F8742F007B12C7 /* Main.storyboard */,
+				575AEA3418F8742F007B12C7 /* SCViewController.h */,
+				575AEA3518F8742F007B12C7 /* SCViewController.m */,
+				575AEA3718F8742F007B12C7 /* SCMyScene.h */,
+				575AEA3818F8742F007B12C7 /* SCMyScene.m */,
+				575AEA3A18F8742F007B12C7 /* Spaceship.png */,
+				575AEA3C18F8742F007B12C7 /* Images.xcassets */,
+				575AEA2618F8742F007B12C7 /* Supporting Files */,
+				575AEA6418F8A291007B12C7 /* SCTileNode.h */,
+				575AEA6518F8A291007B12C7 /* SCTileNode.m */,
+			);
+			path = ScrollingChallenge;
+			sourceTree = "<group>";
+		};
+		575AEA2618F8742F007B12C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				575AEA2718F8742F007B12C7 /* ScrollingChallenge-Info.plist */,
+				575AEA2818F8742F007B12C7 /* InfoPlist.strings */,
+				575AEA2B18F8742F007B12C7 /* main.m */,
+				575AEA2D18F8742F007B12C7 /* ScrollingChallenge-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		575AEA4918F8742F007B12C7 /* ScrollingChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				575AEA4F18F8742F007B12C7 /* ScrollingChallengeTests.m */,
+				575AEA4A18F8742F007B12C7 /* Supporting Files */,
+			);
+			path = ScrollingChallengeTests;
+			sourceTree = "<group>";
+		};
+		575AEA4A18F8742F007B12C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				575AEA4B18F8742F007B12C7 /* ScrollingChallengeTests-Info.plist */,
+				575AEA4C18F8742F007B12C7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		575AEA1918F8742F007B12C7 /* ScrollingChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 575AEA5318F8742F007B12C7 /* Build configuration list for PBXNativeTarget "ScrollingChallenge" */;
+			buildPhases = (
+				575AEA1618F8742F007B12C7 /* Sources */,
+				575AEA1718F8742F007B12C7 /* Frameworks */,
+				575AEA1818F8742F007B12C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollingChallenge;
+			productName = ScrollingChallenge;
+			productReference = 575AEA1A18F8742F007B12C7 /* ScrollingChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		575AEA4118F8742F007B12C7 /* ScrollingChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 575AEA5618F8742F007B12C7 /* Build configuration list for PBXNativeTarget "ScrollingChallengeTests" */;
+			buildPhases = (
+				575AEA3E18F8742F007B12C7 /* Sources */,
+				575AEA3F18F8742F007B12C7 /* Frameworks */,
+				575AEA4018F8742F007B12C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				575AEA4818F8742F007B12C7 /* PBXTargetDependency */,
+			);
+			name = ScrollingChallengeTests;
+			productName = ScrollingChallengeTests;
+			productReference = 575AEA4218F8742F007B12C7 /* ScrollingChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		575AEA1218F8742F007B12C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "J Hastwell";
+				TargetAttributes = {
+					575AEA4118F8742F007B12C7 = {
+						TestTargetID = 575AEA1918F8742F007B12C7;
+					};
+				};
+			};
+			buildConfigurationList = 575AEA1518F8742F007B12C7 /* Build configuration list for PBXProject "ScrollingChallenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 575AEA1118F8742F007B12C7;
+			productRefGroup = 575AEA1B18F8742F007B12C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				575AEA1918F8742F007B12C7 /* ScrollingChallenge */,
+				575AEA4118F8742F007B12C7 /* ScrollingChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		575AEA1818F8742F007B12C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				575AEA5A18F8752F007B12C7 /* desert_BG@2x.png in Resources */,
+				575AEA2A18F8742F007B12C7 /* InfoPlist.strings in Resources */,
+				575AEA3D18F8742F007B12C7 /* Images.xcassets in Resources */,
+				575AEA3B18F8742F007B12C7 /* Spaceship.png in Resources */,
+				575AEA3318F8742F007B12C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		575AEA4018F8742F007B12C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				575AEA4E18F8742F007B12C7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		575AEA1618F8742F007B12C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				575AEA3918F8742F007B12C7 /* SCMyScene.m in Sources */,
+				575AEA3018F8742F007B12C7 /* SCAppDelegate.m in Sources */,
+				575AEA3618F8742F007B12C7 /* SCViewController.m in Sources */,
+				575AEA2C18F8742F007B12C7 /* main.m in Sources */,
+				575AEA6618F8A291007B12C7 /* SCTileNode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		575AEA3E18F8742F007B12C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				575AEA5018F8742F007B12C7 /* ScrollingChallengeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		575AEA4818F8742F007B12C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 575AEA1918F8742F007B12C7 /* ScrollingChallenge */;
+			targetProxy = 575AEA4718F8742F007B12C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		575AEA2818F8742F007B12C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				575AEA2918F8742F007B12C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		575AEA3118F8742F007B12C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				575AEA3218F8742F007B12C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		575AEA4C18F8742F007B12C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				575AEA4D18F8742F007B12C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		575AEA5118F8742F007B12C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		575AEA5218F8742F007B12C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		575AEA5418F8742F007B12C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScrollingChallenge/ScrollingChallenge-Prefix.pch";
+				INFOPLIST_FILE = "ScrollingChallenge/ScrollingChallenge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		575AEA5518F8742F007B12C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScrollingChallenge/ScrollingChallenge-Prefix.pch";
+				INFOPLIST_FILE = "ScrollingChallenge/ScrollingChallenge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		575AEA5718F8742F007B12C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ScrollingChallenge.app/ScrollingChallenge";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScrollingChallenge/ScrollingChallenge-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ScrollingChallengeTests/ScrollingChallengeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		575AEA5818F8742F007B12C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ScrollingChallenge.app/ScrollingChallenge";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScrollingChallenge/ScrollingChallenge-Prefix.pch";
+				INFOPLIST_FILE = "ScrollingChallengeTests/ScrollingChallengeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		575AEA1518F8742F007B12C7 /* Build configuration list for PBXProject "ScrollingChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				575AEA5118F8742F007B12C7 /* Debug */,
+				575AEA5218F8742F007B12C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		575AEA5318F8742F007B12C7 /* Build configuration list for PBXNativeTarget "ScrollingChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				575AEA5418F8742F007B12C7 /* Debug */,
+				575AEA5518F8742F007B12C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		575AEA5618F8742F007B12C7 /* Build configuration list for PBXNativeTarget "ScrollingChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				575AEA5718F8742F007B12C7 /* Debug */,
+				575AEA5818F8742F007B12C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 575AEA1218F8742F007B12C7 /* Project object */;
+}
